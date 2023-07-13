@@ -1,5 +1,5 @@
 package interfaces
 
-type Bird interface{
+type Bird interface {
 	Sing()
 }

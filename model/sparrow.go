@@ -1,16 +1,15 @@
 package model
 
-import(
+import (
 	//"test/interfaces"
 	"fmt"
 )
 
-type Sparrow struct{
-	weight float64
-
+type Sparrow struct {
+	Hight float64
 }
 
-func (this *Sparrow) Sing(){
+func (this *Sparrow) Sing() {
 	fmt.Println("chick chirick")
+	fmt.Println(this.Hight)
 }
-

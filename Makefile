@@ -1,4 +1,4 @@
 build:
-	go build -o hello.run hello.go
+	go build -o builds/hello.run hello.go
 run:
-	./hello.run
+	./builds/hello.run

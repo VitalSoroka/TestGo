@@ -9,6 +9,7 @@ type Forty struct {
 	Hight float64
 }
 
-func (this Forty) Sing() {
+func (this *Forty) Sing() {
 	fmt.Println("kar kar")
+	fmt.Println(this.Hight)
 }
